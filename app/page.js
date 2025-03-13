@@ -23,20 +23,24 @@ export default function Home() {
         <h1>level {level}</h1>
       </div>
       
-      <div className="questions">
-        <h2 className="questionTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis, rerum tenetur, totam atque recusandae architecto minima libero, eos accusamus nemo sit? Harum adipisci esse blanditiis necessitatibus vel velit cum!</h2>
-      </div>
+     
 
-      
-      <div className="alternatives">
-        <div className={"alternative"}>{quiz.questions[0].alternatives[0]}</div>
-        <div className={"alternative"}>{quiz.questions[0].alternatives[1]}</div>
-      </div>
-      <div className="alternatives">
-        <div className={"alternative"}>{quiz.questions[0].alternatives[2]}</div>
-        <div className={"alternative"}>{quiz.questions[0].alternatives[3]}</div>
-      </div>
+      <div className="fundoazul">
+        <div className="questions">
+          <h2 className="questionTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo debitis, rerum tenetur, totam atque recusandae architecto minima libero, eos accusamus nemo sit? Harum adipisci esse blanditiis necessitatibus vel velit cum!</h2>
+        </div>
 
+        
+        <div className="alternatives">
+          <div className={"alternative"}>{quiz.questions[0].alternatives[0]}</div>
+          <div className={"alternative"}>{quiz.questions[0].alternatives[1]}</div>
+        </div>
+        <div className="alternatives">
+          <div className={"alternative"}>{quiz.questions[0].alternatives[2]}</div>
+          <div className={"alternative"}>{quiz.questions[0].alternatives[3]}</div>
+        </div>
+
+      </div>
 
 
 
